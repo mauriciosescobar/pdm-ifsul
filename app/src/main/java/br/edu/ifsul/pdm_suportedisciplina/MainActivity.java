@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v){
 
-        int idBotao = v.getId();;
+        int idBotao = v.getId();
 
         Intent i = null;
 
