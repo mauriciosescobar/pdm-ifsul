@@ -7,5 +7,5 @@ Projeto Android contendo diversos exemplos de código sobre os seguintes tópico
 * Radio buttons
 * Check boxes
 * Utilizando imagens
-** Exibindo uma imagem a partir da galeria
+* Exibindo uma imagem a partir da galeria
 
