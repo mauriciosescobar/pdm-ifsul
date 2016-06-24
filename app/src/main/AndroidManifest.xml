@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".UtilizandoBotoes" />
-        <activity android:name=".UtilizandoRadioButtons"></activity>
+        <activity android:name=".UtilizandoRadioButtons" />
+        <activity android:name=".UtilizandoCheckBoxes"></activity>
     </application>
 
 </manifest>
