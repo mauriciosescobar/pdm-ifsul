@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_utilizandoradiobuttons:
                 i = new Intent(getApplicationContext(), UtilizandoRadioButtons.class);
                 break;
+            case R.id.bt_utilizandoimagens:
+                i = new Intent(getApplicationContext(), UtilizandoImagens.class);
+                break;
         }
 
         if ( i != null ) {
