@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-public class UtilizandoRadioButtons extends AppCompatActivity {
+public class UtilizandoRadioButtonsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

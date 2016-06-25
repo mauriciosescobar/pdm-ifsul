@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import java.io.InputStream;
 
-public class UtilizandoImagens extends AppCompatActivity {
+public class UtilizandoImagensActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +36,10 @@ public class UtilizandoImagens extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+
         if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
             if (data != null) {
-
                 Uri enderecoImagem = data.getData();
-
                 ImageView iv = (ImageView) findViewById(R.id.imagem_galeria);
                 iv.setImageURI(enderecoImagem);
             }

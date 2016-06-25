@@ -7,30 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".UtilizandoBotoesActivity">
+    tools:context="br.edu.ifsul.pdm_suportedisciplina.banco.ListaProdutosActivity">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Oi"
-        android:id="@+id/button5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/campoCima"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="80dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="oiClick" />
+        android:layout_alignParentStart="true" />
 
-    <ToggleButton
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/toggleButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="124dp"
-        android:layout_alignParentEnd="true"
-        android:textOff="Desligado"
-        android:textOn="Ligado"
-        android:checked="false"
-        android:onClick="onToggleClick" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/campoBaixo"
+        android:layout_below="@+id/campoCima"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

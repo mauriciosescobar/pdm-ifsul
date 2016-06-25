@@ -15,10 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UtilizandoBotoes" />
-        <activity android:name=".UtilizandoRadioButtons" />
-        <activity android:name=".UtilizandoCheckBoxes" />
-        <activity android:name=".UtilizandoImagens"></activity>
+        <activity android:name=".UtilizandoBotoesActivity" />
+        <activity android:name=".UtilizandoRadioButtonsActivity" />
+        <activity android:name=".UtilizandoCheckBoxesActivity" />
+        <activity android:name=".UtilizandoImagensActivity" />
+        <activity
+            android:name=".ListaProdutosActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddProdutoActivity"></activity>
     </application>
 
 </manifest>

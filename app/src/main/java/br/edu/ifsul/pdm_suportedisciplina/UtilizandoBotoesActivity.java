@@ -8,7 +8,7 @@ import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 
-public class UtilizandoBotoes extends AppCompatActivity {
+public class UtilizandoBotoesActivity extends AppCompatActivity {
 
     ArrayList<String> mensagens = new ArrayList<>();
     int posicao = -1;

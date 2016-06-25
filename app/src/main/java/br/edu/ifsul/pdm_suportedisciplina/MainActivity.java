@@ -21,13 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         switch (idBotao) {
             case R.id.bt_utilizandobotoes:
-                i = new Intent(getApplicationContext(), UtilizandoBotoes.class);
+                i = new Intent(getApplicationContext(), UtilizandoBotoesActivity.class);
                 break;
             case R.id.bt_utilizandoradiobuttons:
-                i = new Intent(getApplicationContext(), UtilizandoRadioButtons.class);
+                i = new Intent(getApplicationContext(), UtilizandoRadioButtonsActivity.class);
                 break;
             case R.id.bt_utilizandoimagens:
-                i = new Intent(getApplicationContext(), UtilizandoImagens.class);
+                i = new Intent(getApplicationContext(), UtilizandoImagensActivity.class);
+                break;
+            case R.id.bt_utilizandobanco:
+                i = new Intent(getApplicationContext(), ListaProdutosActivity.class);
                 break;
         }
 
