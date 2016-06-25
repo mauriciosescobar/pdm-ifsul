@@ -24,7 +24,7 @@ public class AddProdutoActivity extends AppCompatActivity {
             String descricao = campoDescricao.getText().toString();
             float preco = Float.parseFloat(campoPreco.getText().toString());
 
-            Produto p = new Produto(descricao, preco);
+            Produto p = new Produto(-1, descricao, preco);
 
             DAOProduto.cadastrar(getApplicationContext(), p);
 

@@ -36,7 +36,7 @@ public class ProdutosAdapter extends ArrayAdapter<Produto> {
         Produto item = getItem(position);
 
         campoCima.setText(item.getDescricao());
-        campoBaixo.setText(String.format("R$ %s", item.getPreco()));
+        campoBaixo.setText(String.format("R$ %.2f", item.getPreco()));
 
         return v;
     }

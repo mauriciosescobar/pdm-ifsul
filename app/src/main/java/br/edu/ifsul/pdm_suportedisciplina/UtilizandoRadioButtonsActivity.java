@@ -35,7 +35,7 @@ public class UtilizandoRadioButtonsActivity extends AppCompatActivity {
 
     private void exibeAlerta(String mensagem) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Utilizando Botões");
+        builder.setTitle("Utilizando Radio Buttons");
 
         builder.setMessage( mensagem );
 
