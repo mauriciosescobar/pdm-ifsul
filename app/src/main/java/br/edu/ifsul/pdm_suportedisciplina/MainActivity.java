@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_utilizandobanco:
                 i = new Intent(getApplicationContext(), ListaProdutosActivity.class);
                 break;
+            case R.id.bt_utilizandocheckboxes:
+                i = new Intent(getApplicationContext(), UtilizandoCheckBoxesActivity.class);
+                break;
         }
 
         if ( i != null ) {

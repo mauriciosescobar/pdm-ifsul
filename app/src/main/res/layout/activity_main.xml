@@ -36,9 +36,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Utilizando Check Boxes"
-            android:id="@+id/button3"
+            android:id="@+id/bt_utilizandocheckboxes"
             android:layout_below="@+id/bt_utilizandobotoes"
-            android:layout_alignEnd="@+id/button4" />
+            android:layout_alignEnd="@+id/button4"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="wrap_content"
