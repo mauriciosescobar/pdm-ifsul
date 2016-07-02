@@ -8,4 +8,4 @@ Projeto Android contendo diversos exemplos de código sobre os seguintes tópico
 * Check boxes
 * Utilizando imagens
 * Exibindo uma imagem a partir da galeria
-
+* Utilizando e customizando um Spinner (Caixa de combinação)
