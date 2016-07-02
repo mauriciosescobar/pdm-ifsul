@@ -42,6 +42,10 @@ public class UtilizandoImagensActivity extends AppCompatActivity {
                 Uri enderecoImagem = data.getData();
                 ImageView iv = (ImageView) findViewById(R.id.imagem_galeria);
                 iv.setImageURI(enderecoImagem);
+
+                String caminho = enderecoImagem.toString();
+
+                Uri end = Uri.parse( caminho );
             }
         }
     }

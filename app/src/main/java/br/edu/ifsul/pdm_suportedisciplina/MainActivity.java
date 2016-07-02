@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_utilizandocheckboxes:
                 i = new Intent(getApplicationContext(), UtilizandoCheckBoxesActivity.class);
                 break;
+            case R.id.bt_utilizandospinner:
+                i = new Intent(getApplicationContext(), UtilizandoSpinnerActivity.class);
+                break;
         }
 
         if ( i != null ) {

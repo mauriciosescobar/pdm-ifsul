@@ -23,7 +23,8 @@
             android:name=".ListaProdutosActivity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddProdutoActivity"></activity>
+        <activity android:name=".AddProdutoActivity" />
+        <activity android:name=".UtilizandoSpinnerActivity"></activity>
     </application>
 
 </manifest>

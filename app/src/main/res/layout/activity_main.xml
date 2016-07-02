@@ -62,5 +62,12 @@
             android:text="Utilizando Banco de Dados"
             android:id="@+id/bt_utilizandobanco"
             android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Utilizando spinner (caixa de combinação)"
+            android:id="@+id/bt_utilizandospinner"
+            android:onClick="onClick" />
     </LinearLayout>
 </RelativeLayout>
