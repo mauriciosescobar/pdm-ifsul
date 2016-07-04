@@ -33,7 +33,7 @@ public class MyService extends Service {
         public void handleMessage(Message msg) {
             // Aqui deve ser colocado o codigo da logica (TAREFA) que o servico executa, como por exemplo
             // baixar um arquivo, fazer algum processamento, etc.
-            // For our sample, we just sleep for 5 seconds.
+
             // Exemplo: gerar os 10 primeiros números da sequencia de Fibonacci
             int a = 0;
             int b = 1;
