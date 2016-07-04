@@ -11,6 +11,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -24,6 +25,13 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AddProdutoActivity" />
         <activity android:name=".UtilizandoSpinnerActivity" />
+
+        <service
+            android:name=".servicos.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".UtilizandoServicos"></activity>
     </application>
 
 </manifest>

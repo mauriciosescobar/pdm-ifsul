@@ -69,5 +69,12 @@
             android:text="Utilizando spinner (caixa de combinação)"
             android:id="@+id/bt_utilizandospinner"
             android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="utilizando serviços e notificações"
+            android:id="@+id/bt_servicos_notificacoes"
+            android:onClick="onClick" />
     </LinearLayout>
 </RelativeLayout>

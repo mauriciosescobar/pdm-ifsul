@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_utilizandospinner:
                 i = new Intent(getApplicationContext(), UtilizandoSpinnerActivity.class);
                 break;
+            case R.id.bt_servicos_notificacoes:
+                i = new Intent(getApplicationContext(), UtilizandoServicos.class);
+                break;
         }
 
         if ( i != null ) {
