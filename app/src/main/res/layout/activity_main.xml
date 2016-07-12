@@ -76,5 +76,12 @@
             android:text="utilizando serviços e notificações"
             android:id="@+id/bt_servicos_notificacoes"
             android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="utilizando parametros"
+            android:id="@+id/bt_utilizandoparametros"
+            android:onClick="onClick" />
     </LinearLayout>
 </RelativeLayout>

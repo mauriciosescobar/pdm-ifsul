@@ -31,7 +31,10 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".UtilizandoServicos"></activity>
+        <activity android:name=".UtilizandoServicos" />
+        <activity android:name=".revisao_prova.MinhaAtividade1" />
+        <activity android:name=".UtilizandoParametros" />
+        <activity android:name=".RecebendoParametrosActivity"></activity>
     </application>
 
 </manifest>
