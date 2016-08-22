@@ -16,6 +16,10 @@ public class AddProdutoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_produto);
     }
 
+    public void nomeMetodo(View v) {
+
+    }
+
     public void onCadastrar(View v) {
         EditText campoDescricao = (EditText) findViewById(R.id.campoDescricao);
         EditText campoPreco = (EditText) findViewById(R.id.campoPreco);

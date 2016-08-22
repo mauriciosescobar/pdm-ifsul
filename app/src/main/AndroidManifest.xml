@@ -2,16 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.edu.ifsul.pdm_suportedisciplina">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -32,9 +34,9 @@
             android:exported="true" />
 
         <activity android:name=".UtilizandoServicos" />
-        <activity android:name=".revisao_prova.MinhaAtividade1" />
         <activity android:name=".UtilizandoParametros" />
-        <activity android:name=".RecebendoParametrosActivity"></activity>
+        <activity android:name=".RecebendoParametrosActivity" />
+        <activity android:name=".UtilizandoJSON"></activity>
     </application>
 
 </manifest>

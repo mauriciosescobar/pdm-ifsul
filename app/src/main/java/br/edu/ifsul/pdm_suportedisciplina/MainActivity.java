@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         int idBotao = v.getId();
 
         Intent i = null;
+
 
         switch (idBotao) {
             case R.id.bt_utilizandobotoes:
@@ -44,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_utilizandoparametros:
                 i = new Intent(getApplicationContext(), UtilizandoParametros.class);
+                break;
+            case R.id.bt_utilizandoJSON:
+                i = new Intent(getApplicationContext(), UtilizandoJSON.class);
                 break;
         }
 

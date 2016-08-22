@@ -83,5 +83,12 @@
             android:text="utilizando parametros"
             android:id="@+id/bt_utilizandoparametros"
             android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Utilizando JSON"
+            android:id="@+id/bt_utilizandoJSON"
+            android:onClick="onClick" />
     </LinearLayout>
 </RelativeLayout>
