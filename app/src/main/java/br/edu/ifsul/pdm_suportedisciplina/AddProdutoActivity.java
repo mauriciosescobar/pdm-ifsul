@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import java.net.URLEncoder;
+
 import br.edu.ifsul.pdm_suportedisciplina.banco.DAOProduto;
 import br.edu.ifsul.pdm_suportedisciplina.banco.Produto;
 
@@ -14,6 +16,8 @@ public class AddProdutoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_produto);
+
+         // URLEncoder.encode()
     }
 
     public void nomeMetodo(View v) {

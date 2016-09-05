@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +16,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent i = new Intent(getApplicationContext(), EsteListaCheckBox.class);
+       // startActivity(i);
+
+        try {
+            String codi = URLEncoder.encode("ácido", "Windows-1252");
+            Toast.makeText(getApplicationContext(), codi, Toast.LENGTH_SHORT).show();
+        }
+        catch (Exception e) {
+            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();;
+        }
     }
 
     public void onClick(View v){

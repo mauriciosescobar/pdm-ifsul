@@ -3,8 +3,11 @@ package br.edu.ifsul.pdm_suportedisciplina;
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -15,6 +18,9 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class UtilizandoJSON extends Activity {
 
     // 1. Adicionar a permissao de INTERNET
@@ -24,7 +30,6 @@ public class UtilizandoJSON extends Activity {
     // No arquivo build.gradle, adicionar a linha dentro do bloco dependencies {  }
     // compile 'com.android.volley:volley:1.0.0'
     // Sincronizar o Gradle, caso seja solicitado
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +80,20 @@ public class UtilizandoJSON extends Activity {
             public void onErrorResponse(VolleyError error) {
                 mTextView.setText("Acho que não funcionou! :( :/ <o>");
             }
-        });
+        }
+        )
+        {
+            // descomentar para utilizar parâmetros na requisicao
+//            @Override
+//            protected Map<String, String> getParams() throws AuthFailureError {
+//                Map<String, String> parametros =  new HashMap<>();
+//                parametros.put("nomeParametro1", "valorParametro1");
+//                parametros.put("nomeParametro2", "valorParametro2");
+//                // ... e mais quantos precisar
+//
+//                return super.getParams();
+//            }
+        };
 
         // Adiciona a requisicao na fila
         queue.add(stringRequest);
