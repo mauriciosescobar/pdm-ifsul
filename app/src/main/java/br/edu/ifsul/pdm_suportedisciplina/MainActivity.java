@@ -17,16 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent i = new Intent(getApplicationContext(), EsteListaCheckBox.class);
-       // startActivity(i);
-
-        try {
-            String codi = URLEncoder.encode("ácido", "Windows-1252");
-            Toast.makeText(getApplicationContext(), codi, Toast.LENGTH_SHORT).show();
-        }
-        catch (Exception e) {
-            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();;
-        }
+        Intent i = new Intent(getApplicationContext(), ChuckNorrisFacts.class);
+        startActivity(i);
     }
 
     public void onClick(View v){
@@ -34,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         int idBotao = v.getId();
 
         Intent i = null;
-
 
         switch (idBotao) {
             case R.id.bt_utilizandobotoes:
