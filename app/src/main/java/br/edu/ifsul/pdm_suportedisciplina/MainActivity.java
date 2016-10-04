@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent i = new Intent(getApplicationContext(), ChuckNorrisFacts.class);
+        Intent i = new Intent(getApplicationContext(), UtilizandoJSON.class);
         startActivity(i);
     }
 
